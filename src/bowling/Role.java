@@ -55,7 +55,7 @@ public class Role {
     }
 
     public boolean canAttempt() {
-        if (isSpare() || getPreviousRole().isSpare())
+        if (getPreviousRole().isSpare() || getPreviousRole().getPreviousRole().isSpare())
             return true;
 
         return false;

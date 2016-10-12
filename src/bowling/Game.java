@@ -33,8 +33,7 @@ public class Game {
 
     private boolean canAttempt() {
         return (framesAttempts <= FRAMES_COUNT ||
-                (getCurrentFrame().canAttempt() ||
-                        getPreviousFrame().getCurrentRole().canAttempt()));
+                (getCurrentFrame().canAttempt() || getCurrentFrame().getCurrentRole().canAttempt()));
     }
 
     private void initFrame() {
@@ -53,13 +52,6 @@ public class Game {
             return null;
 
         return frames.get(frames.size() - 1);
-    }
-
-    private Frame getPreviousFrame() {
-        if (frames.size() < 2)
-            return null;
-
-        return frames.get(frames.size() - 2);
     }
 
 }

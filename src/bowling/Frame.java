@@ -8,6 +8,7 @@ public class Frame {
     private Role firstRole;
     private Role secondRole;
     private Frame previousFrame;
+    private boolean isUsedSecondRole;
 
     public Frame getPreviousFrame() {
         if (previousFrame == null)
@@ -16,18 +17,22 @@ public class Frame {
         return previousFrame;
     }
 
-    public Frame() {}
+    public Frame() {
+        isUsedSecondRole = false;
+        initRole();
+    }
 
     public Frame(Frame previousFrame) {
+        isUsedSecondRole = false;
         this.previousFrame = previousFrame;
+        initRole();
     }
 
     public boolean isFinish() {
-        if (firstRole != null && firstRole.isSpare())
+        if (firstRole.isSpare())
             return true;
 
-        return secondRole != null;
-
+        return isUsedSecondRole;
     }
 
     public int getScore() {
@@ -55,12 +60,12 @@ public class Frame {
     }
 
     public void attempt(int fallen) {
-        createRole();
         getCurrentRole().fallPins(fallen);
+        initRole();
     }
 
     public boolean canAttempt() {
-        if (firstRole == null) {
+        if (secondRole == null) {
             if (previousFrame.isStrike())
                 return true;
         }
@@ -68,14 +73,15 @@ public class Frame {
         return false;
     }
 
-    private void createRole() {
+    private void initRole() {
         if (firstRole == null) {
             firstRole = new Role(getPreviousFrame().getCurrentRole());
             if (getPreviousFrame().isStrike()) {
                 firstRole.incrementFactor();
             }
-        } else if (secondRole == null)
+        } else if (!firstRole.isSpare() && secondRole == null)
             secondRole = new Role(firstRole);
+        else isUsedSecondRole = true;
     }
 
 }

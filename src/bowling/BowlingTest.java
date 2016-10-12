@@ -18,8 +18,8 @@ public class BowlingTest {
 
     @Test
     public void attempt() {
-        game.attempt(10);
-        game.attempt(10);
+        game.attempt(1);
+        game.attempt(1);
 
         game.attempt(10);
         game.attempt(10);
@@ -35,6 +35,12 @@ public class BowlingTest {
 
         game.attempt(1);
         game.attempt(9);
+
+        game.attempt(9);
+        game.attempt(1);
+
+        game.attempt(1);
+        game.attempt(1);
 
         printScore(game.getScore());
     }

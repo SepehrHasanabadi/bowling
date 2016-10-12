@@ -25,12 +25,11 @@
       <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bowling/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+            <state relative-caret-position="179">
+              <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
               <folding>
                 <element signature="docComment;class#Game#0" expanded="false" />
                 <element signature="method#getScore#0;class#Game#0" expanded="false" />
-                <element signature="method#getPreviousFrame#0;class#Game#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -39,8 +38,8 @@
       <file leaf-file-name="BowlingTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bowling/BowlingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+            <state relative-caret-position="410">
+              <caret line="42" column="22" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="22" />
               <folding>
                 <element signature="docComment;class#BowlingTest#0" expanded="false" />
               </folding>
@@ -51,19 +50,12 @@
       <file leaf-file-name="Frame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/bowling/Frame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="62" column="29" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="29" />
+            <state relative-caret-position="129">
+              <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
               <folding>
                 <element signature="docComment;class#Frame#0" expanded="false" />
                 <element signature="method#getPreviousFrame#0;class#Frame#0" expanded="false" />
-                <element signature="e#369#370#0" expanded="true" />
-                <element signature="e#419#420#0" expanded="true" />
-                <element signature="method#isFinish#0;class#Frame#0" expanded="false" />
                 <element signature="method#getScore#0;class#Frame#0" expanded="false" />
-                <element signature="method#isStrike#0;class#Frame#0" expanded="false" />
-                <element signature="method#getCurrentRole#0;class#Frame#0" expanded="false" />
-                <element signature="method#attempt#0;class#Frame#0" expanded="false" />
-                <element signature="method#createRole#0;class#Frame#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -72,14 +64,13 @@
       <file leaf-file-name="Role.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bowling/Role.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+            <state relative-caret-position="265">
+              <caret line="57" column="86" selection-start-line="57" selection-start-column="79" selection-end-line="57" selection-end-column="86" />
               <folding>
                 <element signature="docComment;class#Role#0" expanded="false" />
                 <element signature="method#Role#0;class#Role#0" expanded="false" />
                 <element signature="method#fallPins#0;class#Role#0" expanded="false" />
                 <element signature="method#getPreviousRole#0;class#Role#0" expanded="false" />
-                <element signature="method#getScore#0;class#Role#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -132,9 +123,9 @@
         <option value="$PROJECT_DIR$/src/A/Frame.java" />
         <option value="$PROJECT_DIR$/src/A/Game.java" />
         <option value="$PROJECT_DIR$/src/bowling/Role.java" />
-        <option value="$PROJECT_DIR$/src/bowling/Frame.java" />
         <option value="$PROJECT_DIR$/src/bowling/BowlingTest.java" />
         <option value="$PROJECT_DIR$/src/bowling/Game.java" />
+        <option value="$PROJECT_DIR$/src/bowling/Frame.java" />
       </list>
     </option>
   </component>
@@ -800,44 +791,44 @@
       <workItem from="1475575629136" duration="1448000" />
       <workItem from="1476016279097" duration="10418000" />
       <workItem from="1476077770131" duration="4915000" />
-      <workItem from="1476172901781" duration="18369000" />
+      <workItem from="1476172901781" duration="20788000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BowlingTest - 2016.10.12 at 16h 26m 33s.xml">
+    <history-entry file="BowlingTest - 2016.10.12 at 17h 23m 12s.xml">
       <configuration name="BowlingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BowlingTest - 2016.10.12 at 16h 28m 18s.xml">
+    <history-entry file="BowlingTest - 2016.10.12 at 17h 23m 37s.xml">
       <configuration name="BowlingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BowlingTest - 2016.10.12 at 16h 29m 11s.xml">
+    <history-entry file="BowlingTest - 2016.10.12 at 17h 23m 44s.xml">
       <configuration name="BowlingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BowlingTest - 2016.10.12 at 16h 30m 05s.xml">
+    <history-entry file="BowlingTest - 2016.10.12 at 17h 25m 51s.xml">
       <configuration name="BowlingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BowlingTest - 2016.10.12 at 16h 39m 27s.xml">
+    <history-entry file="BowlingTest - 2016.10.12 at 17h 26m 11s.xml">
       <configuration name="BowlingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BowlingTest - 2016.10.12 at 16h 39m 46s.xml">
+    <history-entry file="BowlingTest - 2016.10.12 at 17h 29m 01s.xml">
       <configuration name="BowlingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BowlingTest - 2016.10.12 at 16h 45m 45s.xml">
+    <history-entry file="BowlingTest - 2016.10.12 at 17h 32m 06s.xml">
       <configuration name="BowlingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BowlingTest - 2016.10.12 at 16h 47m 23s.xml">
+    <history-entry file="BowlingTest - 2016.10.12 at 17h 32m 33s.xml">
       <configuration name="BowlingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BowlingTest - 2016.10.12 at 16h 47m 39s.xml">
+    <history-entry file="BowlingTest - 2016.10.12 at 17h 34m 13s.xml">
       <configuration name="BowlingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BowlingTest - 2016.10.12 at 16h 49m 50s.xml">
+    <history-entry file="BowlingTest - 2016.10.12 at 17h 35m 19s.xml">
       <configuration name="BowlingTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42444000" />
+    <option name="totallyTimeSpent" value="44863000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -845,17 +836,17 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25751072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -897,14 +888,7 @@
           <folding>
             <element signature="docComment;class#Frame#0" expanded="false" />
             <element signature="method#getPreviousFrame#0;class#Frame#0" expanded="false" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="method#isFinish#0;class#Frame#0" expanded="false" />
             <element signature="method#getScore#0;class#Frame#0" expanded="false" />
-            <element signature="method#isStrike#0;class#Frame#0" expanded="false" />
-            <element signature="method#getCurrentRole#0;class#Frame#0" expanded="false" />
-            <element signature="method#attempt#0;class#Frame#0" expanded="false" />
-            <element signature="method#createRole#0;class#Frame#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -918,7 +902,6 @@
             <element signature="method#Role#0;class#Role#0" expanded="false" />
             <element signature="method#fallPins#0;class#Role#0" expanded="false" />
             <element signature="method#getPreviousRole#0;class#Role#0" expanded="false" />
-            <element signature="method#getScore#0;class#Role#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -930,7 +913,6 @@
           <folding>
             <element signature="docComment;class#Game#0" expanded="false" />
             <element signature="method#getScore#0;class#Game#0" expanded="false" />
-            <element signature="method#getPreviousFrame#0;class#Game#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -952,14 +934,7 @@
           <folding>
             <element signature="docComment;class#Frame#0" expanded="false" />
             <element signature="method#getPreviousFrame#0;class#Frame#0" expanded="false" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="method#isFinish#0;class#Frame#0" expanded="false" />
             <element signature="method#getScore#0;class#Frame#0" expanded="false" />
-            <element signature="method#isStrike#0;class#Frame#0" expanded="false" />
-            <element signature="method#getCurrentRole#0;class#Frame#0" expanded="false" />
-            <element signature="method#attempt#0;class#Frame#0" expanded="false" />
-            <element signature="method#createRole#0;class#Frame#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -973,7 +948,6 @@
             <element signature="method#Role#0;class#Role#0" expanded="false" />
             <element signature="method#fallPins#0;class#Role#0" expanded="false" />
             <element signature="method#getPreviousRole#0;class#Role#0" expanded="false" />
-            <element signature="method#getScore#0;class#Role#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1033,22 +1007,21 @@
     <entry file="file://$PROJECT_DIR$/src/B/Game.java" />
     <entry file="file://$PROJECT_DIR$/src/bowling/Role.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+        <state relative-caret-position="265">
+          <caret line="57" column="86" selection-start-line="57" selection-start-column="79" selection-end-line="57" selection-end-column="86" />
           <folding>
             <element signature="docComment;class#Role#0" expanded="false" />
             <element signature="method#Role#0;class#Role#0" expanded="false" />
             <element signature="method#fallPins#0;class#Role#0" expanded="false" />
             <element signature="method#getPreviousRole#0;class#Role#0" expanded="false" />
-            <element signature="method#getScore#0;class#Role#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bowling/BowlingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        <state relative-caret-position="410">
+          <caret line="42" column="22" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="22" />
           <folding>
             <element signature="docComment;class#BowlingTest#0" expanded="false" />
           </folding>
@@ -1057,31 +1030,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bowling/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+        <state relative-caret-position="179">
+          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
           <folding>
             <element signature="docComment;class#Game#0" expanded="false" />
             <element signature="method#getScore#0;class#Game#0" expanded="false" />
-            <element signature="method#getPreviousFrame#0;class#Game#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bowling/Frame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="62" column="29" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="29" />
+        <state relative-caret-position="129">
+          <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
           <folding>
             <element signature="docComment;class#Frame#0" expanded="false" />
             <element signature="method#getPreviousFrame#0;class#Frame#0" expanded="false" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="method#isFinish#0;class#Frame#0" expanded="false" />
             <element signature="method#getScore#0;class#Frame#0" expanded="false" />
-            <element signature="method#isStrike#0;class#Frame#0" expanded="false" />
-            <element signature="method#getCurrentRole#0;class#Frame#0" expanded="false" />
-            <element signature="method#attempt#0;class#Frame#0" expanded="false" />
-            <element signature="method#createRole#0;class#Frame#0" expanded="false" />
           </folding>
         </state>
       </provider>
