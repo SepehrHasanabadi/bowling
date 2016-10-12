@@ -16,13 +16,10 @@ public class Frame {
         return previousFrame;
     }
 
-    public Frame() {
-
-    }
+    public Frame() {}
 
     public Frame(Frame previousFrame) {
         this.previousFrame = previousFrame;
-
     }
 
     public boolean isFinish() {

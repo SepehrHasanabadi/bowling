@@ -54,4 +54,11 @@ public class Role {
         return getFallenPins() == PINS_COUNT;
     }
 
+    public boolean canAttempt() {
+        if (isSpare() || getPreviousRole().isSpare())
+            return true;
+
+        return false;
+    }
+
 }

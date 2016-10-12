@@ -9,15 +9,14 @@ public class Game {
 
     private static final int FRAMES_COUNT = 10;
     private ArrayList<Frame> frames;
-    private int attempts;
+    private int framesAttempts;
 
     public Game() {
         this.frames = new ArrayList<>();
-        this.attempts = 0;
+        this.framesAttempts = 0;
     }
 
     public void attempt(int fallen) {
-        attempts++;
         initFrame();
         if (canAttempt())
             getCurrentFrame().attempt(fallen);
@@ -33,29 +32,19 @@ public class Game {
     }
 
     private boolean canAttempt() {
-        if (attempts <= FRAMES_COUNT)
-            return true;
-
-        if (attempts <= FRAMES_COUNT + 2 && attempts > FRAMES_COUNT) {
-            return getCurrentFrame().canAttempt() || canAttempt(getPreviousFrame().getCurrentRole());
-        }
-
-        return false;
-    }
-
-    private boolean canAttempt(Role previousRole) {
-        if (previousRole.isSpare() || previousRole.getPreviousRole().isSpare())
-            return true;
-
-        return false;
+        return (framesAttempts <= FRAMES_COUNT ||
+                (getCurrentFrame().canAttempt() ||
+                        getPreviousFrame().getCurrentRole().canAttempt()));
     }
 
     private void initFrame() {
         if (frames.size() == 0) {
             frames.add(new Frame());
+            framesAttempts++;
         }
         else if (getCurrentFrame().isFinish()) {
             frames.add(new Frame(getCurrentFrame()));
+            framesAttempts++;
         }
     }
 
