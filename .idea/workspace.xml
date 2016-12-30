@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f476d15-4bb0-4e9c-b433-62d08be35bbc" name="Default" comment="" />
+    <list default="true" id="9f476d15-4bb0-4e9c-b433-62d08be35bbc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/shopdriodtest/BasketTester.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/shopdriodtest/InventoryTester.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/shopdroid/Basket.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/shopdroid/Category.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/shopdroid/Financial.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/shopdroid/Inventory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/shopdroid/Product.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/shopdroid/ProductSpec.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/shopdroid/Reporter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/shopdroid/comparison/Comparison.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/shopdroid/comparison/CostComparison.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/shopdroid/equation/Equation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/shopdroid/equation/NameMatcher.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Simple/bowling.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Simple/bowling/BowlingTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Simple/bowling/Frame.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Simple/bowling/Game.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Simple/bowling/Role.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/bowling.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/bowling/BowlingTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/bowling/Frame.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/bowling/Game.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/bowling/Role.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Simple.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,56 +49,99 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bowling/Game.java">
+      <file leaf-file-name="BasketTester.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shopdriodtest/BasketTester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+            <state relative-caret-position="374">
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
               <folding>
-                <element signature="docComment;class#Game#0" expanded="false" />
-                <element signature="method#getScore#0;class#Game#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BowlingTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bowling/BowlingTest.java">
+      <file leaf-file-name="InventoryTester.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/shopdriodtest/InventoryTester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="42" column="22" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="22" />
+            <state relative-caret-position="221">
+              <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
               <folding>
-                <element signature="docComment;class#BowlingTest#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Frame.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/bowling/Frame.java">
+      <file leaf-file-name="Inventory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shopdroid/Inventory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
+            <state relative-caret-position="299">
+              <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
               <folding>
-                <element signature="docComment;class#Frame#0" expanded="false" />
-                <element signature="method#getPreviousFrame#0;class#Frame#0" expanded="false" />
-                <element signature="method#getScore#0;class#Frame#0" expanded="false" />
+                <element signature="e#184#185#0" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#313#314#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Role.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bowling/Role.java">
+      <file leaf-file-name="Category.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shopdroid/Category.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="57" column="86" selection-start-line="57" selection-start-column="79" selection-end-line="57" selection-end-column="86" />
+            <state relative-caret-position="136">
+              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
               <folding>
-                <element signature="docComment;class#Role#0" expanded="false" />
-                <element signature="method#Role#0;class#Role#0" expanded="false" />
-                <element signature="method#fallPins#0;class#Role#0" expanded="false" />
-                <element signature="method#getPreviousRole#0;class#Role#0" expanded="false" />
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
+                <element signature="e#490#491#0" expanded="true" />
+                <element signature="e#743#744#0" expanded="true" />
+                <element signature="e#787#788#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Reporter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shopdroid/Reporter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Financial.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shopdroid/Financial.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#527#528#0" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+                <element signature="e#604#605#0" expanded="true" />
+                <element signature="e#644#645#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Basket.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shopdroid/Basket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -81,9 +151,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Singleton" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -126,6 +201,24 @@
         <option value="$PROJECT_DIR$/src/bowling/BowlingTest.java" />
         <option value="$PROJECT_DIR$/src/bowling/Game.java" />
         <option value="$PROJECT_DIR$/src/bowling/Frame.java" />
+        <option value="$PROJECT_DIR$/src/Type.java" />
+        <option value="$PROJECT_DIR$/src/BaseType.java" />
+        <option value="$PROJECT_DIR$/src/Good.java" />
+        <option value="$PROJECT_DIR$/src/shopdroid/equation/Equation.java" />
+        <option value="$PROJECT_DIR$/src/shopdroid/comparison/Comparison.java" />
+        <option value="$PROJECT_DIR$/src/shopdroid/comparison/CostComparison.java" />
+        <option value="$PROJECT_DIR$/src/shopdroid/equation/NameMatcher.java" />
+        <option value="$PROJECT_DIR$/src/shopdroid/ProductSpec.java" />
+        <option value="$PROJECT_DIR$/src/shopdroid/Product.java" />
+        <option value="$PROJECT_DIR$/src/shopdroid/Basket.java" />
+        <option value="$PROJECT_DIR$/src/shopdroid/Financial.java" />
+        <option value="$PROJECT_DIR$/src/shopdriodtest/Main.java" />
+        <option value="$PROJECT_DIR$/src/shopdroid/Reporter.java" />
+        <option value="$PROJECT_DIR$/src/shopdriodtest/Tester.java" />
+        <option value="$PROJECT_DIR$/src/shopdriodtest/BasketTester.java" />
+        <option value="$PROJECT_DIR$/src/shopdroid/Category.java" />
+        <option value="$PROJECT_DIR$/src/shopdroid/Inventory.java" />
+        <option value="$PROJECT_DIR$/src/shopdriodtest/InventoryTester.java" />
       </list>
     </option>
   </component>
@@ -146,7 +239,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -164,8 +257,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -197,6 +290,10 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopdroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -212,13 +309,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bowling" />
+              <option name="myItemId" value="shopdriodtest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,21 +330,21 @@
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="Bowling" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/bowling" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/bowlingTest" />
       <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/bowlingTest" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="A" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/bowling" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Bowling" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BowlingTest">
+  <component name="RunManager" selected="JUnit.InventoryTester">
     <configuration default="false" name="BowlingGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -277,15 +374,15 @@
     <configuration default="false" name="BowlingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Bowling.*" />
+          <option name="PATTERN" value="bowling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="Simple" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Bowling" />
-      <option name="MAIN_CLASS_NAME" value="Bowling.BowlingTest" />
+      <option name="PACKAGE_NAME" value="bowling" />
+      <option name="MAIN_CLASS_NAME" value="bowling.BowlingTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -300,18 +397,44 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="BowlingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="BasketTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="bowling.*" />
+          <option name="PATTERN" value="shopdriodtest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="Simple" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="bowling" />
-      <option name="MAIN_CLASS_NAME" value="bowling.BowlingTest" />
+      <option name="PACKAGE_NAME" value="shopdriodtest" />
+      <option name="MAIN_CLASS_NAME" value="shopdriodtest.BasketTester" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="InventoryTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="shopdriodtest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Simple" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="shopdriodtest" />
+      <option name="MAIN_CLASS_NAME" value="shopdriodtest.InventoryTester" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -761,17 +884,20 @@
       <envs />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Bowling" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.BowlingGameTest" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.BowlingTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BowlingTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BasketTester" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.InventoryTester" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BowlingTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BowlingTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.BowlingGameTest" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.InventoryTester" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BasketTester" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BowlingTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BowlingTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BowlingGameTest" />
       </list>
     </recent_temporary>
   </component>
@@ -791,44 +917,46 @@
       <workItem from="1475575629136" duration="1448000" />
       <workItem from="1476016279097" duration="10418000" />
       <workItem from="1476077770131" duration="4915000" />
-      <workItem from="1476172901781" duration="20788000" />
+      <workItem from="1476172901781" duration="21487000" />
+      <workItem from="1478583302235" duration="1284000" />
+      <workItem from="1483073345761" duration="7142000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BowlingTest - 2016.10.12 at 17h 23m 12s.xml">
-      <configuration name="BowlingTest" configurationId="JUnit" />
+    <history-entry file="BasketTester - 2016.12.30 at 10h 10m 57s.xml">
+      <configuration name="BasketTester" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BowlingTest - 2016.10.12 at 17h 23m 37s.xml">
-      <configuration name="BowlingTest" configurationId="JUnit" />
+    <history-entry file="InventoryTester - 2016.12.30 at 10h 15m 37s.xml">
+      <configuration name="InventoryTester" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BowlingTest - 2016.10.12 at 17h 23m 44s.xml">
-      <configuration name="BowlingTest" configurationId="JUnit" />
+    <history-entry file="InventoryTester - 2016.12.30 at 10h 18m 46s.xml">
+      <configuration name="InventoryTester" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BowlingTest - 2016.10.12 at 17h 25m 51s.xml">
-      <configuration name="BowlingTest" configurationId="JUnit" />
+    <history-entry file="Main - 2016.12.30 at 09h 52m 01s.xml">
+      <configuration name="Main" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BowlingTest - 2016.10.12 at 17h 26m 11s.xml">
-      <configuration name="BowlingTest" configurationId="JUnit" />
+    <history-entry file="Main - 2016.12.30 at 09h 53m 06s.xml">
+      <configuration name="Main" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BowlingTest - 2016.10.12 at 17h 29m 01s.xml">
-      <configuration name="BowlingTest" configurationId="JUnit" />
+    <history-entry file="Main - 2016.12.30 at 09h 54m 22s.xml">
+      <configuration name="Main" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BowlingTest - 2016.10.12 at 17h 32m 06s.xml">
-      <configuration name="BowlingTest" configurationId="JUnit" />
+    <history-entry file="Main - 2016.12.30 at 09h 54m 32s.xml">
+      <configuration name="Main" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BowlingTest - 2016.10.12 at 17h 32m 33s.xml">
-      <configuration name="BowlingTest" configurationId="JUnit" />
+    <history-entry file="Main - 2016.12.30 at 09h 56m 15s.xml">
+      <configuration name="Main" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BowlingTest - 2016.10.12 at 17h 34m 13s.xml">
-      <configuration name="BowlingTest" configurationId="JUnit" />
+    <history-entry file="Main - 2016.12.30 at 09h 59m 11s.xml">
+      <configuration name="Main" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BowlingTest - 2016.10.12 at 17h 35m 19s.xml">
-      <configuration name="BowlingTest" configurationId="JUnit" />
+    <history-entry file="Main - 2016.12.30 at 10h 01m 11s.xml">
+      <configuration name="Main" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44863000" />
+    <option name="totallyTimeSpent" value="53988000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -841,14 +969,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25751072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -881,110 +1009,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/bowling/Frame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#Frame#0" expanded="false" />
-            <element signature="method#getPreviousFrame#0;class#Frame#0" expanded="false" />
-            <element signature="method#getScore#0;class#Frame#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bowling/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="docComment;class#Role#0" expanded="false" />
-            <element signature="method#Role#0;class#Role#0" expanded="false" />
-            <element signature="method#fallPins#0;class#Role#0" expanded="false" />
-            <element signature="method#getPreviousRole#0;class#Role#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bowling/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="docComment;class#Game#0" expanded="false" />
-            <element signature="method#getScore#0;class#Game#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bowling/BowlingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#BowlingTest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bowling/Frame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="30" column="21" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="21" />
-          <folding>
-            <element signature="docComment;class#Frame#0" expanded="false" />
-            <element signature="method#getPreviousFrame#0;class#Frame#0" expanded="false" />
-            <element signature="method#getScore#0;class#Frame#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bowling/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-          <folding>
-            <element signature="docComment;class#Role#0" expanded="false" />
-            <element signature="method#Role#0;class#Role#0" expanded="false" />
-            <element signature="method#fallPins#0;class#Role#0" expanded="false" />
-            <element signature="method#getPreviousRole#0;class#Role#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bowling/Bowling.java" />
-    <entry file="file://$PROJECT_DIR$/src/bowling/BoalController.java" />
-    <entry file="file://$PROJECT_DIR$/src/bowling/Pin.java" />
-    <entry file="file://$PROJECT_DIR$/src/bowling/Frame.java" />
-    <entry file="file://$PROJECT_DIR$/src/bowling/Round.java" />
-    <entry file="file://$PROJECT_DIR$/src/bowlingGame/MatchFactory.java" />
-    <entry file="file://$PROJECT_DIR$/src/bowlingGame/BowlingGameScoreBoard.java" />
-    <entry file="file://$PROJECT_DIR$/src/bowlingGame/BowlingGameTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/bowlingGame/BowlingGame.java" />
-    <entry file="file://$PROJECT_DIR$/src/bowling/Bowling.java" />
-    <entry file="file://$PROJECT_DIR$/src/bowling/BoalController.java" />
-    <entry file="file://$PROJECT_DIR$/src/bowling/Pin.java" />
-    <entry file="file://$PROJECT_DIR$/src/bowling/Frame.java" />
-    <entry file="file://$PROJECT_DIR$/src/bowling/Round.java" />
-    <entry file="file://$PROJECT_DIR$/src/bowling/Bowling.java" />
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/Simple/Main.class" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Boal.java" />
-    <entry file="file://$PROJECT_DIR$/src/PointController.java" />
-    <entry file="file://$PROJECT_DIR$/src/FrameController.java" />
     <entry file="file://$PROJECT_DIR$/src/bowling/Pin.java" />
     <entry file="file://$PROJECT_DIR$/src/bowling/Round.java" />
     <entry file="file://$PROJECT_DIR$/src/bowlingGame/BowlingGameScoreBoard.java" />
@@ -1005,48 +1029,231 @@
     <entry file="file://$PROJECT_DIR$/src/B/Frame.java" />
     <entry file="file://$PROJECT_DIR$/src/B/Role.java" />
     <entry file="file://$PROJECT_DIR$/src/B/Game.java" />
-    <entry file="file://$PROJECT_DIR$/src/bowling/Role.java">
+    <entry file="file://$PROJECT_DIR$/src/bowling/BowlingTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/bowling/Role.java" />
+    <entry file="file://$PROJECT_DIR$/src/bowling/Game.java" />
+    <entry file="file://$PROJECT_DIR$/src/bowling/Frame.java" />
+    <entry file="file://$PROJECT_DIR$/src/Book.java" />
+    <entry file="file://$PROJECT_DIR$/src/CD.java" />
+    <entry file="file://$PROJECT_DIR$/src/Intrument.java" />
+    <entry file="file://$PROJECT_DIR$/src/Guitar.java" />
+    <entry file="file://$PROJECT_DIR$/src/Letriture.java" />
+    <entry file="file://$PROJECT_DIR$/src/Mandoli.java" />
+    <entry file="file://$PROJECT_DIR$/src/GoodType.java" />
+    <entry file="file://$PROJECT_DIR$/src/BaseType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="57" column="86" selection-start-line="57" selection-start-column="79" selection-end-line="57" selection-end-column="86" />
+        <state relative-caret-position="136">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Good.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Type.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoodSpec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shopdroid/equation/Equation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
           <folding>
-            <element signature="docComment;class#Role#0" expanded="false" />
-            <element signature="method#Role#0;class#Role#0" expanded="false" />
-            <element signature="method#fallPins#0;class#Role#0" expanded="false" />
-            <element signature="method#getPreviousRole#0;class#Role#0" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bowling/BowlingTest.java">
+    <entry file="file://$PROJECT_DIR$/src/shopdroid/comparison/Comparison.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="42" column="22" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="22" />
+        <state relative-caret-position="187">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shopdroid/comparison/CostComparison.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shopdroid/equation/NameMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
           <folding>
-            <element signature="docComment;class#BowlingTest#0" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bowling/Game.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/time/LocalDate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+        <state relative-caret-position="258">
+          <caret line="190" column="28" selection-start-line="190" selection-start-column="28" selection-end-line="190" selection-end-column="28" />
           <folding>
-            <element signature="docComment;class#Game#0" expanded="false" />
-            <element signature="method#getScore#0;class#Game#0" expanded="false" />
+            <element signature="e#7027#7028#0" expanded="false" />
+            <element signature="e#7080#7081#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bowling/Frame.java">
+    <entry file="file://$PROJECT_DIR$/src/shopdroid/A.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
+        <state relative-caret-position="85">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shopdroid/ProductSpec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <element signature="docComment;class#Frame#0" expanded="false" />
-            <element signature="method#getPreviousFrame#0;class#Frame#0" expanded="false" />
-            <element signature="method#getScore#0;class#Frame#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shopdroid/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#960#961#0" expanded="true" />
+            <element signature="e#991#992#0" expanded="true" />
+            <element signature="e#1018#1019#0" expanded="true" />
+            <element signature="e#1058#1059#0" expanded="true" />
+            <element signature="e#1090#1091#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shopdroid/Basket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shopdriodtest/Tester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shopdriodtest/BasketTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shopdroid/Reporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shopdroid/Financial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shopdroid/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shopdroid/Inventory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+          <folding>
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shopdriodtest/InventoryTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
