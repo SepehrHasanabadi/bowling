@@ -23,7 +23,7 @@ public class BasketTester {
     public Product makeProduct() {
         Product product = new Product();
         product.setName("ebook");
-        product.setCost("10000");
+        product.setCost(10000);
         ProductSpec productSpec = new ProductSpec();
         productSpec.setProperty("author", "hasanabadi");
         productSpec.setProperty("pageCount");

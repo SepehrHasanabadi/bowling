@@ -49,7 +49,7 @@ public class Financial {
         for (Product product : getBasket().getProducts()) {
             ArrayList<String> s = new ArrayList<>();
             s.add(product.getName());
-            s.add(product.getCost());
+            s.add(String.valueOf(product.getCost()));
             s.add(getSellDateString());
 
             result.add(s);

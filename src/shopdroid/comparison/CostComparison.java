@@ -11,6 +11,6 @@ public class CostComparison implements Comparison {
 
     @Override
     public boolean isGraterThan(Product product, Product other) {
-        return false;
+        return product.getCost() > other.getCost();
     }
 }

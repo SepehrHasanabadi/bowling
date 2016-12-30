@@ -10,7 +10,7 @@ import shopdroid.comparison.CostComparison;
 public class Product {
 
     private String name;
-    private String cost;
+    private Integer cost;
     private ProductSpec productSpec;
     private Comparison comparison;
 
@@ -38,19 +38,11 @@ public class Product {
         this.name = name;
     }
 
-    public Comparison getComparison() {
-        return comparison;
-    }
-
-    public void setComparison(Comparison comparison) {
-        this.comparison = comparison;
-    }
-
-    public String getCost() {
+    public Integer getCost() {
         return cost;
     }
 
-    public void setCost(String cost) {
+    public void setCost(Integer cost) {
         this.cost = cost;
     }
 }

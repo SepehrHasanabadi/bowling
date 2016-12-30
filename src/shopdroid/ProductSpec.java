@@ -1,7 +1,7 @@
 package shopdroid;
 
 import shopdroid.equation.Equation;
-import shopdroid.equation.NameMatcher;
+import shopdroid.equation.Matcher;
 
 import java.util.HashMap;
 
@@ -17,7 +17,7 @@ public class ProductSpec {
 
     public ProductSpec() {
         properties = new HashMap<>();
-        equation = new NameMatcher();
+        equation = new Matcher();
     }
 
     public boolean matches(Product product) {

@@ -60,7 +60,7 @@ public class Category {
         for (Product product : getProducts()) {
             ArrayList<String> s = new ArrayList<>();
             s.add(product.getName());
-            s.add(product.getCost());
+            s.add(String.valueOf(product.getCost()));
 
             result.add(s);
         }
