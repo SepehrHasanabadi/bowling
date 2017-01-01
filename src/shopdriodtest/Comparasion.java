@@ -21,7 +21,7 @@ public class Comparasion {
         product.setCost(10000);
         ProductSpec productSpec = new ProductSpec();
         productSpec.setProperty("author", "hasanabadi");
-        productSpec.setProperty("pageCount");
+        productSpec.setProperty("pageCount", 13);
         product.setProductSpec(productSpec);
 
         return product;
@@ -33,7 +33,7 @@ public class Comparasion {
         product.setCost(1200);
         ProductSpec productSpec = new ProductSpec();
         productSpec.setProperty("author", "karim");
-        productSpec.setProperty("pageCount");
+        productSpec.setProperty("pageCount", 34);
         product.setProductSpec(productSpec);
 
         return product;

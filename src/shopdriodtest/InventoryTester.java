@@ -13,13 +13,20 @@ public class InventoryTester {
 
     @Test
     public void showInventory() {
-        Inventory inventory = new Inventory();
         Category category = new Category();
         category.setName("Book");
         category.addProduct(makeProduct());
         category.addProduct(makeProduct());
+
+        Category c = new Category();
+        c.setName("News Paper");
+        c.addProduct(makeProduct());
+        c.addProduct(makeProduct());
+
+        Inventory inventory = new Inventory();
         inventory.addCategory(category);
-        inventory.addCategory(category);
+        inventory.addCategory(c);
+
         System.out.println(inventory.toStringViewReport());
     }
 
@@ -29,7 +36,7 @@ public class InventoryTester {
         product.setCost(10000);
         ProductSpec productSpec = new ProductSpec();
         productSpec.setProperty("author", "hasanabadi");
-        productSpec.setProperty("pageCount");
+        productSpec.setProperty("pageCount", 12);
         product.setProductSpec(productSpec);
 
         return product;

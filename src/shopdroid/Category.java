@@ -38,10 +38,6 @@ public class Category {
         this.properties = properties;
     }
 
-    public void setProperty(String property) {
-        setProperty(property, null);
-    }
-
     public void setProperty(String property, Object value) {
         properties.put(property, value);
     }

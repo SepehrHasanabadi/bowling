@@ -13,11 +13,11 @@ public class SearchTester {
     public void search() {
         ProductSpec productSpec = new ProductSpec();
         productSpec.setProperty("name", "ali");
+        productSpec.setProperty("author", "mammad");
 
         ProductSpec ps = new ProductSpec();
         ps.setProperty("name", "ali");
         ps.setProperty("author", "mammad");
-
         Product product = new Product();
         product.setProductSpec(ps);
 

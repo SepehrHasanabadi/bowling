@@ -45,4 +45,13 @@ public class Reporter {
 
         return result.toString();
     }
+
+    public String toStringViewReport(Date from, Date to) {
+        ArrayList<String> result = new ArrayList<>();
+        for (Financial financial : getFinancialsFromToDate(from, to)) {
+            result.add(financial.toStringView());
+        }
+
+        return result.toString();
+    }
 }

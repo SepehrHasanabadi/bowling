@@ -21,8 +21,4 @@ public class Basket {
         products.add(product);
     }
 
-    public void clearBasket() {
-        products = new ArrayList<>();
-    }
-
 }
