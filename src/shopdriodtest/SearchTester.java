@@ -12,7 +12,7 @@ public class SearchTester {
     @Test
     public void search() {
         ProductSpec productSpec = new ProductSpec();
-        productSpec.setProperty("name", "ali");
+//        productSpec.setProperty("name", "ali");
         productSpec.setProperty("author", "mammad");
 
         ProductSpec ps = new ProductSpec();
